@@ -1,0 +1,61 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Header styles */
+h1 {
+    font-size: 36px;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+/* Heart emoji style */
+.heart {
+    font-size: 40px;
+}
+
+/* Message paragraph style */
+.message {
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Image style */
+.sleep-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer style */
+.footer {
+    font-size: 16px;
+    color: #888;
+    margin-top: 10px;
+    font-style: italic;
+}
